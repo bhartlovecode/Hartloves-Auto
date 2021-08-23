@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name = "description" content = "Hartlove's Auto">
+    <meta name = "keywords" content = "Hartlove, Hartlove's Auto, Auto">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet"> 
+    <title>Hartlove's Auto</title>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-firestore.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-analytics.js"></script>
+
+    <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+        apiKey: "AIzaSyAk2kbu341rX4TvKoO1Ec1YrFGzRfeQThY",
+        authDomain: "hartloves-auto.firebaseapp.com",
+        projectId: "hartloves-auto",
+        storageBucket: "hartloves-auto.appspot.com",
+        messagingSenderId: "279424992816",
+        appId: "1:279424992816:web:0473403939d343b8aa4ff5",
+        measurementId: "G-MDT3ZWRN0C"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+</script>
+
+<script src = "app.js" defer></script>
+<link rel="stylesheet" type="text/css" media="screen" href="css/default.css" />
+
+</head>
+<body>
+    <div class = "horizontal_section" id = "nav_section">
+        <nav>
+            <div class="logo">
+                <h4>HA | Hartloves Auto</h4>
+            </div>
+            <ul class="nav-links">
+                <li>
+                    <a href = "index.html">Home</a>
+                </li>
+                <li>
+                    <a href = "services.html">Services</a>
+                </li>
+                <li>
+                    <a href = "Contact Us.html">Contact Us</a>
+                </li>
+            </ul>
+            <div class = "burger">
+                <div class = "lineOne"></div>
+                <div class = "lineTwo"></div>
+                <div class = "lineThree"></div>
+            </div>
+        </nav>
+    </div>
+    
+    <div class = "landing-picture-container">
+        <h2 class = "image-text">Quality Auto Care</h2>
+        <div class = "buttons">
+            <a href = "services.html" class = "quote-btn">Quote</a>
+            <a href = "Contact Us.html" class = "contact-btn">Contact Us</a>
+        </div>
+    </div>
+   
+    <div class="container">
+        <div class="vertical-container-larger">
+            <h2 class = "body-h2">
+                About Us
+            </h2>
+            <p>
+                In mid-1988, John E. Hartlove & Sons Auto opened it doors. 
+                Employing only qualified and competent technicians, we provide honest and reliable auto and truck repair. 
+                Our factory-trained technicians use state-of-art equipment to provide the highest level of service available. 
+                We service all domestic and import automobiles and trucks.  Marine service is also available.<br/><br/>
+                <b>Hartlove's Auto is the only ASE Blue Seal of Excellence member in the Pasadena area.</b><br/><br/>
+
+                The ASE (National Institute for Automotive Service Excellence) has been a symbol of higher quality auto and truck repair since 1972.
+
+                Automotive repair performed by an ASE certified technician means you are getting service from a skilled individual who has passed rigoruos testing by the most recognized name in the auto service industry.  Since the ASE certification is renewed every five years, technicians not only need to know existing technology, diagnoses, and repair methods, but also keep on top of new and emerging methods to retain their certification standing with ASE. 
+
+                Repair shops now have a convenient way to let their patrons know they are dealing with a business that knows the value of that testing.  
+                When you see the ASE Blue Seal Excellence sign, you know you are getting quality repairs done by qualified technicians.
+            </p>
+        </div>
+        <div class="vertical-container-smaller">
+            <br/><br/><img src = "images/ase_blue_seal_1.jpg" class = "blue-seal-logo"><br/><br/>
+            <span>Click <a href = "https://www.ase.com/blue-seal-program" targe = "_blank" class = "blue-seal-link">here</a> to learn more about the 
+            ASE Blue Seal Program</span>
+        </div>
+    </div>
+
+    <div class = "reviews-container">
+        <h1>Reviews</h1>
+        <span class = "line-style">____________</span><br/><br/>
+        <div class = "reviews">
+            <div class = "review">
+                Great local mechanic!  John and his staff have been taking care of our cars for several years now and we couldn't be happier.  
+                Honest and reasonably priced... and they have amazing customer service!  Highly recommend!
+            </div>
+            <div class = "review">
+                John Hartlove is one of the best men I know. He goes above and beyond to do the right thing and treat people right. 
+                He's the kind of guy who becomes more than your mechanic. He's like a member of the family.
+            </div>
+            <div class = "review">
+                I've been going to Hartlove's Auto for about two years now.  It's a great local mechanic shop.  
+                They'll fix anything that has wheels, and their rates are reasonable.  
+                Ben has always done excellent work on my Ford Escape, and on one recent visit where we were trying to troubleshoot an AC cooling issue, 
+                he actually brought a thermometer and came with me on a grocery store run to test the AC temperature - for no extra charge!  
+            </div>
+        </div>
+    </div>
+    
+   
+</body>
+</html>
